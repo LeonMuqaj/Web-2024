@@ -93,29 +93,29 @@ header {
 
 /* Pjesa responsive */
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .menu ul {
-        flex-direction: column; /* Stack menu items vertically */
-        align-items: center; /* Center align items */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .menu li {
-        margin: 10px 0; /* Space between items */
+        margin: 10px 0; 
     }
 
     .header-container {
-        flex-direction: column; /* Stack header elements vertically */
-        align-items: center; /* Center align header items */
+        flex-direction: column;
+        align-items: center; 
     }
 }
 
 @media (max-width: 480px) {
     .logo img {
-        height: 40px; /* Smaller logo for mobile */
+        height: 40px;
     }
 
     .menu a {
-        font-size: 14px; /* Smaller text for mobile */
+        font-size: 14px; 
     }
 }
 
@@ -178,18 +178,18 @@ header {
     }
 
 
-/* Pjesa e div ku do te shfaqen produktet */
-
-.container{
+.container {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin: 0 -10px;
 }
 
 .item {
     background-color: #f2f2f2;
     padding: 20px;
-    margin: 10px;
-    flex: 1;
+    margin: 10px; 
+    flex: 1 1 calc(25% - 20px); 
     text-align: center;
 }
 
@@ -203,9 +203,20 @@ header {
     margin-bottom: 80px;
 }
 
+.image-container p{
+    color: green;
+    font-weight: bold;
+}
+
 .images img {
-    width: 23%; 
+    max-width: 100%; 
+    height: auto;
     border-radius: 5px; 
+}
+
+.imazhi{
+    width: 75%;
+    height: 300px;
 }
 
 button {
@@ -222,6 +233,26 @@ button:hover {
     color: #020200;
 }
 
+
+/* Pjesa responsive per pjesen e produkteve */
+
+@media (max-width: 1024px) {
+    .item {
+        flex: 1 1 calc(33.33% - 20px);
+    }
+}
+
+@media (max-width: 768px) {
+    .item {
+        flex: 1 1 calc(50% - 20px); 
+    }
+}
+
+@media (max-width: 480px) {
+    .item {
+        flex: 1 1 100%; 
+    }
+}
  
 
 

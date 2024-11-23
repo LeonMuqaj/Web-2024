@@ -17,8 +17,8 @@ const paymentTextBoldElement = document.getElementById('paymentTextBold');
 const paymentTextNormalElement = document.getElementById('paymentTextNormal');
 
 function updatePaymentText() {
-    paymentTextBoldElement.style.opacity = 0; // Fade out
-    paymentTextNormalElement.style.opacity = 0; // Fade out
+    paymentTextBoldElement.style.opacity = 0; 
+    paymentTextNormalElement.style.opacity = 0; 
 
     setTimeout(() => {
         paymentTextBoldElement.textContent = paymentOptionsBold[currentIndex];
@@ -33,7 +33,6 @@ function updatePaymentText() {
 
 setInterval(updatePaymentText, 3500);
 
-// Initialize the first text
 updatePaymentText();
 
 // //////////////////////////////////////////////////////////////////////////////////////////////
@@ -65,14 +64,11 @@ function updateCarousel() {
         carouselWrapper.appendChild(img);
     }
     
-    // Funksioni per ndryshimin e imazheve
     currentImageIndex = (currentImageIndex + 4) % images.length;
 }
 
-// Inicializo carousel-in
 updateCarousel();
 
-// Ndryshimi i imazheve cdo 3 sekonda
 setInterval(updateCarousel, 3000);
 
 // //////////////////////////////////////////////////////////////////////////////////////////////
@@ -104,7 +100,7 @@ function validateLoginForm() {
     return true;
 }
 
-// Function to validate the registration form
+// Validimi i Register formes
 function validateRegisterForm() {
     const name = document.getElementById('register-name').value;
     const surname = document.getElementById('register-surname').value;
@@ -123,21 +119,18 @@ function validateRegisterForm() {
         return false; 
     }
 
-  
     const phonePattern = /^[0-9]+$/; 
     if (!phonePattern.test(phone)) {
         alert('Phone number can only contain numbers.');
         return false; 
     }
 
-    // Email validation
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailPattern.test(email)) {
         alert('Invalid email format. It must contain "@" and end with ".com".');
         return false; 
     }
 
-    // Password validation
     const passwordPattern = /^[A-Z].*\d.*$/; 
     if (!passwordPattern.test(password)) {
         alert('Password must start with a capital letter and include at least one number.');
