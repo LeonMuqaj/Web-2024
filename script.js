@@ -24,8 +24,8 @@ function updatePaymentText() {
         paymentTextBoldElement.textContent = paymentOptionsBold[currentIndex];
         paymentTextNormalElement.textContent = paymentOptionsNormal[currentIndex];
         
-        paymentTextBoldElement.style.opacity = 1; // Fade in
-        paymentTextNormalElement.style.opacity = 1; // Fade in
+        paymentTextBoldElement.style.opacity = 1; 
+        paymentTextNormalElement.style.opacity = 1;
 
         currentIndex = (currentIndex + 1) % paymentOptionsBold.length;
     }, 500);
