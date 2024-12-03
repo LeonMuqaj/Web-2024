@@ -207,6 +207,9 @@ header {
     color: green;
     font-weight: bold;
 }
+.image-container strong{
+    color: black;
+}
 
 .images img {
     max-width: 100%; 
