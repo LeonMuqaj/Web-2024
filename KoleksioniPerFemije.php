@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faqja e Blerjes Online</title>
+    <link rel="stylesheet" href="KoleksioniPerFemijee.css">
+    <link rel="stylesheet" href="Style1.css">
+   
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="Faqja1.php">
+                <img src="logo.png" alt="Logo" />
+                </a>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="Faqja1.php">Home</a></li>
+                    <li><a href="KoleksioniIRI.php">Koleksioni i ri</a></li>
+                    <li><a href="KoleksioniMeshkuj.php">Meshkuj</a></li>
+                    <li><a href="KoleksioniFemra.php">Femra</a></li>
+                    <li><a href="KoleksioniPerFemije.php">Femije</a></li>
+                    <li><a href="KoleksioniAksesore.php">Aksesore</a></li>
+                    <li><a href="#">Zbritje</a></li>
+                </ul>
+            </nav>
+            <div class="right-section">
+                <a href="Log-in.php">
+                <img src="shopping cart.png" alt="Small Image" class="small-image" />
+                </a>
+                <a href="Log-in.php" class="login-button">Log In</a>
+            </div>
+        </div>
+    </header>
+  
+    </div>
+        <div class="flex-2">
+        <div class="product">
+            <img src="NIKE+REACT+VISION(GS).jpg" alt="Produkti 4">
+            <p><strong>Nike React Vision (GS) Limited Edition</strong></p>
+            <p class="price">Çmimi: 150.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+        </div>
+        <div class="product">
+            <img src="NIKE+AIR+MAX+270.jpg" alt="Produkti 5">
+            <p><strong>Nike Air Max 270</strong></p>
+            <p class="price">Çmimi: 120.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+        </div>
+        <div class="product">
+            <img src="AIR+MAX+DN.jpg" alt="Produkti 6">
+            <p><strong>Nike Air Max DN </strong></p>
+            <p class="price">Çmimi: 170.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+
+        </div>
+    </div>
+
+    <div class="flex-2">
+        <div class="product">
+            <img src="K+NSW+TF+RPL+HGH+SYNFL.jpg" alt="Produkti 4">
+            <p><strong>Jelek per Femije Nike NSW TF RPL HGH SYNFL</strong></p>
+            <p class="price">Çmimi: 90.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+        </div>
+        <div class="product">
+            <img src="PSG+Y+NK+DF+JSY+SS+STAD+HM.jpg" alt="Produkti 5">
+            <p><strong>Ndrese Futbolli Paris Saint-Germain 2024/25 Stadium Home</strong></p>
+            <p class="price">Çmimi: 75.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+        </div>
+        <div class="product">
+            <img src="AIR+FORCE+1kids(GS).jpg" alt="Produkti 6">
+            <p><strong>Atlete per Femije Nike Air Force 1(White)</strong></p>
+            <p class="price">Çmimi: 90.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+        </div>
+    </div>
+
+    <div class="flex-2">
+        <div class="product">
+            <img src="NIKE+DUNK+LOW+(PS).jpg" alt="Produkti 4">
+            <p><strong>Atlete per Femije Nike Dunk Low (PS)</strong></p>
+            <p class="price">Çmimi: 85.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+        </div>
+        <div class="product">
+            <img src="JR+PHANTOM+LUNA+II+ACADEMY+AG.jpg" alt="Produkti 5">
+            <p><strong>Atlete Futbolli Nike Phantom Academy AG</strong></p>
+            <p class="price">Çmimi: 70.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+        </div>
+        <div class="product">
+            <img src="NIKESB+DUNK+LOW+(GS).jpg" alt="Produkti 6">
+            <p><strong>Atlete per Femije Nike SB Dunk Low (GS)</strong></p>
+            <p class="price">Çmimi: 95.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+        </div>
+    </div>
+
+
+    <div class="flex-2">
+        <div class="product">
+            <img src="NIKE+DUNK+HIGH+NN+GS.jpg" alt="Produkti 4">
+            <p><strong>Atlete per Femije Nike Dunk High NN GS</strong></p>
+            <p class="price">Çmimi: 115.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+        </div>
+        <div class="product">
+            <img src="NIKE+DUNK+LOW+(PSE).png" alt="Produkti 5">
+            <p><strong>Atlete per Femije Nike Dunk Low (PSE)</strong></p>
+            <p class="price">Çmimi: 100.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+        </div>
+        <div class="product">
+            <img src="NIKE+DUNKSB+LOW+GS.jpg" alt="Produkti 6">
+            <p><strong>Atlete per Femije Nike Dunk SB Low GS</strong></p>
+            <p class="price">Çmimi: 110.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+        </div>
+    </div>
+
+
+    <div class="flex-2">
+        <div class="product">
+            <img src="NIKE+DUNKLOWGS-olderKids.jpg" alt="Produkti 4">
+            <p><strong>Atlete per Femije Nike Dunk Low Dark Obsidian</strong></p>
+            <p class="price">Çmimi: 120.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+        </div>
+        <div class="product">
+            <img src="NIKESBBDUNK+HIGH+(GS).png" alt="Produkti 5">
+            <p><strong>Atlete per Femije Nike SB Dunk High (GS)</strong></p>
+            <p class="price">Çmimi: 40.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+        </div>
+        <div class="product">
+            <img src="Trenerka-Classic- K+NSW+CLUB+FLC+JGGR+LBR.jpg" alt="Produkti 6">
+            <p><strong>Trenerka te Poshtme per Femije Nike NSW Club FLC JGGR</strong></p>
+            <p class="price">Çmimi: 45.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+        </div>
+    </div>
+
+    <div class="flex-2">
+        <div class="product">
+            <img src="Trenerka+NSW+TRACKSUIT+POLY+FZ+HBR.jpg" alt="Produkti 4">
+            <p><strong>Trenerka Komplet per Femije Nike NSW Tracksuit Poly FZ HBR </strong></p>
+            <p class="price">Çmimi: 75.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+        </div>
+        <div class="product">
+            <img src="DuksFemije-K+NSW+CLUB+FLC+HDY+LBR.png" alt="Produkti 5">
+            <p><strong>Duks per Femije Nike SportsWear Club FLC HDY</strong></p>
+            <p class="price">Çmimi: 40.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+        </div>
+        <div class="product">
+            <img src="Maic-femije-DNU+K+NK+AIR+TEE.png" alt="Produkti 6">
+            <p><strong>Maic per Femije Nike Air</strong></p>
+            <p class="price">Çmimi: 35.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+                <p>Phone: +1 (234) 567-890</a></p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <a href="https://www.facebook.com" target="_blank">
+                    <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" d="M13.135 6H15V3h-1.865a4.147 4.147 0 0 0-4.142 4.142V9H7v3h2v9.938h3V12h2.021l.592-3H12V6.591A.6.6 0 0 1 12.592 6h.543Z" clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com" target="_blank">
+                    <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+                        <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+            </div>
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Kosova Clothes eshte distributor direkt i brendeve: Nike, Adidas, Puma, Reebok, Lacoste  
+                    si dhe shites i licensuar i brendave: Champion, Under Armour, etj.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Kosova Clothes. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
