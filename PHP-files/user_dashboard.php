@@ -46,14 +46,14 @@ $adminProducts = isset($_SESSION['products']) ? $_SESSION['products'] : [];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kosova Clothes</title>
-    <link rel="stylesheet" href="Style1.css">
+    <link rel="stylesheet" href="../CSS-Files/Style1.css">
 </head>
 <body>
     <header>
         <div class="header-container">
             <div class="logo">
                 <a href="user_dashboard.php">
-                    <img src="logo.png" alt="Logo" />
+                    <img src="../images/logo.png" alt="Logo" />
                 </a>
             </div>
             <nav class="menu">
@@ -69,14 +69,14 @@ $adminProducts = isset($_SESSION['products']) ? $_SESSION['products'] : [];
             </nav>
             <div class="right-section">
                 <a href="AddToCart.php">
-                    <img src="shopping cart.png" alt="Small Image" class="small-image" />
+                    <img src="../images/shopping cart.png" alt="Small Image" class="small-image" />
                 </a>
             </div>
         </div>
     </header>
 
     <div class="img-statik">
-        <img src="img-1.jpg" alt="Fotoja per Zbritje" class="img-1">
+        <img src="../images/img-1.jpg" alt="Fotoja per Zbritje" class="img-1">
     </div>
 
     <div class="payment-slider">
@@ -90,14 +90,14 @@ $adminProducts = isset($_SESSION['products']) ? $_SESSION['products'] : [];
 
     <div class="carousel-container">
         <div class="carousel-wrapper" id="carouselWrapper">
-            <img src="Nike.png" class="carousel-image" alt="Imazhi 1">
-            <img src="adidas.jpg" class="carousel-image" alt="Imazhi 2">
-            <img src="Lacoste.jpg" class="carousel-image" alt="Imazhi 3">
-            <img src="Dior.png" class="carousel-image" alt="Imazhi 4">
-            <img src="CAT.png" class="carousel-image" alt="Imazhi 5">
-            <img src="Illyrian.jpg" class="carousel-image" alt="Imazhi 6">
-            <img src="PhilippPlein.png" class="carousel-image" alt="Imazhi 7">
-            <img src="Reebok.png" class="carousel-image" alt="Imazhi 8">
+            <img src="../images/Nike.png" class="carousel-image" alt="Imazhi 1">
+            <img src="../images/adidas.jpg" class="carousel-image" alt="Imazhi 2">
+            <img src="../images/Lacoste.jpg" class="carousel-image" alt="Imazhi 3">
+            <img src="../images/Dior.png" class="carousel-image" alt="Imazhi 4">
+            <img src="../images/CAT.png" class="carousel-image" alt="Imazhi 5">
+            <img src="../images/Illyrian.jpg" class="carousel-image" alt="Imazhi 6">
+            <img src="../images/PhilippPlein.png" class="carousel-image" alt="Imazhi 7">
+            <img src="../images/Reebok.png" class="carousel-image" alt="Imazhi 8">
         </div>
     </div>
 
@@ -150,6 +150,8 @@ $adminProducts = isset($_SESSION['products']) ? $_SESSION['products'] : [];
         </div>
     </footer>
 
-    <script src="script.js"> </script>
+    <script src="../Javascript-files/script.js"> </script>
 </body>
 </html>
+
+

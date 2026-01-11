@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kosova Clothes</title>
-    <link rel="stylesheet" href="Style1.css">
+    <link rel="stylesheet" href="../CSS-Files/Style1.css">
 </head>
 <body>
     <header>
         <div class="header-container">
             <div class="logo">
                 <a href="Faqja1.php">
-                <img src="logo.png" alt="Logo" />
+                <img src="../images/logo.png" alt="Logo" />
                 </a>
             </div>
             <nav class="menu">
@@ -27,7 +27,7 @@
             </nav>
             <div class="right-section">
                 <a href="Log-in.php">
-                <img src="shopping cart.png" alt="Small Image" class="small-image" />
+                <img src="../images/shopping cart.png" alt="Small Image" class="small-image" />
                 </a>
                 <a href="Log-in.php" class="login-button">Log In</a>
             </div>
@@ -37,7 +37,7 @@
 
     <!-- Pjesa e imazhit ne faqen kryesore -->
     <div class="img-statik">
-        <img src="img-1.jpg" alt="Fotoja per Zbritje" class="img-1">
+        <img src="../images/img-1.jpg" alt="Fotoja per Zbritje" class="img-1">
     </div>
 
 
@@ -54,14 +54,14 @@
     <!-- Pjesa e Carouselit -->
     <div class="carousel-container">
         <div class="carousel-wrapper" id="carouselWrapper">
-            <img src="Nike.png" class="carousel-image" alt="Imazhi 1">
-            <img src="adidas.jpg" class="carousel-image" alt="Imazhi 2">
-            <img src="Lacoste.jpg" class="carousel-image" alt="Imazhi 3">
-            <img src="Dior.png" class="carousel-image" alt="Imazhi 4">
-            <img src="CAT.png" class="carousel-image" alt="Imazhi 5">
-            <img src="Illyrian.jpg" class="carousel-image" alt="Imazhi 6">
-            <img src="PhilippPlein.png" class="carousel-image" alt="Imazhi 7">
-            <img src="Reebok.png" class="carousel-image" alt="Imazhi 8">
+            <img src="../images/Nike.png" class="carousel-image" alt="Imazhi 1">
+            <img src="../images/adidas.jpg" class="carousel-image" alt="Imazhi 2">
+            <img src="../images/Lacoste.jpg" class="carousel-image" alt="Imazhi 3">
+            <img src="../images/Dior.png" class="carousel-image" alt="Imazhi 4">
+            <img src="../images/CAT.png" class="carousel-image" alt="Imazhi 5">
+            <img src="../images/Illyrian.jpg" class="carousel-image" alt="Imazhi 6">
+            <img src="../images/PhilippPlein.png" class="carousel-image" alt="Imazhi 7">
+            <img src="../images/Reebok.png" class="carousel-image" alt="Imazhi 8">
 
         </div>
     </div>
@@ -75,28 +75,28 @@
             <div class="images">
 
                 <div class="image-container">
-                    <img src="golden-state-warriors-courtside-statement-edition-mens-jordan-nba-max90-t-shirt-HnWHMD.png" alt="Image 2">
+                    <img src="../images/golden-state-warriors-courtside-statement-edition-mens-jordan-nba-max90-t-shirt-HnWHMD.png" alt="Image 2">
                     <p><strong>Maice per Meshkuj Golden State Warriors</strong></p>
                     <p>Çmimi: 80.00€</p>
                     <button>SHTO NE SHPORTE</button>
                     </div>
 
                 <div class="image-container">
-                    <img src="air-jordan-4-seafoam.jpg" alt="Image 2">
+                    <img src="../images/air-jordan-4-seafoam.jpg" alt="Image 2">
                     <p><strong>Air Jordan 4 Seafom Edition</strong></p>
                     <p>Çmimi: 180.00€</p>
                     <button>SHTO NE SHPORTE</button>
                 </div>
 
                 <div class="image-container">
-                    <img src="NIKEFEMRADW+NSW+ESSNTL+COZY+JKT.png" alt="Image 1">
+                    <img src="../images/NIKEFEMRADW+NSW+ESSNTL+COZY+JKT.png" alt="Image 1">
                     <p><strong>Duks per femra Nike</strong></p>
                     <p>Çmimi: 80.00€</p>
                     <button>SHTO NE SHPORTE</button>
                 </div>
 
                 <div class="image-container">
-                    <img src="NikePro MOCK long sleeve.jpg" alt="Image 2">
+                    <img src="../images/NikePro MOCK long sleeve.jpg" alt="Image 2">
                     <p><strong>Duks me menge te gjata Nike</strong></p>
                     <p>Çmimi: 45.00€</p>
                     <button>SHTO NE SHPORTE</button>
@@ -109,28 +109,28 @@
             <div class="images">
 
                 <div class="image-container">
-                    <img src="DuksNOCTA-M+NRG+NOCTA+TCH+JKT+HD.png" alt="Image 2">
+                    <img src="../images/DuksNOCTA-M+NRG+NOCTA+TCH+JKT+HD.png" alt="Image 2">
                     <p><strong>Duks per Meshkuj Nike Nocta te verdhe</strong></p>
                     <p>Çmimi: 70.00€</p>
                     <button>SHTO NE SHPORTE</button>
                     </div>
 
                 <div class="image-container">
-                    <img src="NIKESHOX+RIDE+2.png" alt="Image 2">
+                    <img src="../images/NIKESHOX+RIDE+2.png" alt="Image 2">
                     <p><strong>Atlete per Femra Nike SHOX-RIDE 2</strong></p>
                     <p>Çmimi: 200.00€</p>
                     <button>SHTO NE SHPORTE</button>
                 </div>
 
                 <div class="image-container">
-                    <img src="TermaFitHOODIE-M+J+FLIGHT+SHERPA+JKT-Meshkuj.png" alt="Image 1">
+                    <img src="../images/TermaFitHOODIE-M+J+FLIGHT+SHERPA+JKT-Meshkuj.png" alt="Image 1">
                     <p><strong>Duks per Meshkuj Nike Terma Fit</strong></p>
                     <p>Çmimi: 100.00€</p>
                     <button>SHTO NE SHPORTE</button>
                 </div>
 
                 <div class="image-container">
-                    <img src="airjordan1.jpg" alt="Image 2">
+                    <img src="../images/airjordan1.jpg" alt="Image 2">
                     <p><strong>Air Jordan 1 MID</strong></p>
                     <p>Çmimi: 280.00€</p>
                     <button>SHTO NE SHPORTE</button>
@@ -143,28 +143,28 @@
             <div class="images">
 
                 <div class="image-container">
-                    <img src="jordan-essentials-mens-warmup-jacket-bHlr9B.png" alt="Image 2">
+                    <img src="../images/jordan-essentials-mens-warmup-jacket-bHlr9B.png" alt="Image 2">
                     <p><strong>Trenerke per Meshkuj Jordan Warmup</strong></p>
                     <p>Çmimi: 60.00€</p>
                     <button>SHTO NE SHPORTE</button>
                     </div>
 
                 <div class="image-container">
-                    <img src="air-jordan-4-thunder.jpg" alt="Image 2" class="imazhi">
+                    <img src="../images/air-jordan-4-thunder.jpg" alt="Image 2" class="imazhi">
                     <p><strong>Air Jordan 4 Thunder</strong></p>
                     <p>Çmimi: 200.00€</p>
                     <button>SHTO NE SHPORTE</button>
                 </div>
 
                 <div class="image-container">
-                    <img src="NIKEPHOENIXFEMRAW+NSW+PHNX+FLC+HR+OS+PANT+2.png" alt="Image 1">
+                    <img src="../images/NIKEPHOENIXFEMRAW+NSW+PHNX+FLC+HR+OS+PANT+2.png" alt="Image 1">
                     <p><strong>Trenerka per Femra Nike </strong></p>
                     <p>Çmimi: 75.00€</p>
                     <button>SHTO NE SHPORTE</button>
                 </div>
 
                 <div class="image-container">
-                    <img src="BROKLYNJERSEY+MNK+DF+SWGMN+JSY+ICN+22.png" alt="Image 2">
+                    <img src="../images/BROKLYNJERSEY+MNK+DF+SWGMN+JSY+ICN+22.png" alt="Image 2">
                     <p><strong>Maice per Meshkuj Brooklyn Jersey</strong></p>
                     <p>Çmimi: 120.00€</p>
                     <button>SHTO NE SHPORTE</button>
@@ -209,8 +209,10 @@
         </div>
     </footer>
 
-    <script src="script.js"> </script>
+    <script src="../Javascript-files/script.js"> </script>
 
     
 </body>
 </html>
+
+

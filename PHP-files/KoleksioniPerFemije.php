@@ -4,169 +4,166 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Faqja e Blerjes Online</title>
-    <link rel="stylesheet" href="KoleksioniRI.css">
-    <link rel="stylesheet" href="Style1.css">
+    <link rel="stylesheet" href="../CSS-Files/KoleksioniPerFemijee.css">
+    <link rel="stylesheet" href="../CSS-Files/Style1.css">
    
 </head>
 <body>
     <header>
         <div class="header-container">
             <div class="logo">
-                <a href="Faqja1.html">
-                <img src="logo.png" alt="Logo" />
+                <a href="Faqja1.php">
+                <img src="../images/logo.png" alt="Logo" />
                 </a>
             </div>
             <nav class="menu">
                 <ul>
-                    <li><a href="Faqja1.html">Home</a></li>
-                    <li><a href="KoleksioniIRI.html">Koleksioni i ri</a></li>
-                    <li><a href="KoleksioniMeshkuj.html">Meshkuj</a></li>
-                    <li><a href="KoleksioniFemra.html">Femra</a></li>
-                    <li><a href="KoleksioniPerFemije.html">Femije</a></li>
-                    <li><a href="KoleksioniAksesore.html">Aksesore</a></li>
+                    <li><a href="Faqja1.php">Home</a></li>
+                    <li><a href="KoleksioniIRI.php">Koleksioni i ri</a></li>
+                    <li><a href="KoleksioniMeshkuj.php">Meshkuj</a></li>
+                    <li><a href="KoleksioniFemra.php">Femra</a></li>
+                    <li><a href="KoleksioniPerFemije.php">Femije</a></li>
+                    <li><a href="KoleksioniAksesore.php">Aksesore</a></li>
                     <li><a href="#">Zbritje</a></li>
                 </ul>
             </nav>
             <div class="right-section">
-                <a href="Log-in.html">
-                <img src="shopping cart.png" alt="Small Image" class="small-image" />
+                <a href="Log-in.php">
+                <img src="../images/shopping cart.png" alt="Small Image" class="small-image" />
                 </a>
-                <a href="Log-in.html" class="login-button">Log In</a>
+                <a href="Log-in.php" class="login-button">Log In</a>
             </div>
         </div>
     </header>
-
   
     </div>
-
-        <div class="container">
         <div class="flex-2">
         <div class="product">
-            <img src="air-jordan-4-thunder.jpg" alt="Produkti 4">
-            <p><strong> Nike Air Jordan 4 Thunder </strong> </p>
-            <p class="price">Çmimi: 350.00€</p>
+            <img src="../images/NIKE+REACT+VISION(GS).jpg" alt="Produkti 4">
+            <p><strong>Nike React Vision (GS) Limited Edition</strong></p>
+            <p class="price">Çmimi: 150.00€</p>
             <button id="openModal">SHTO NE SHPORTE</button>
         </div>
         <div class="product">
-            <img src="dunk-low-mens-shoes-mcP2m1.png" alt="Produkti 5">
-            <p><strong> Nike Dunk Low </strong> </p>
-            <p class="price">Çmimi: 140.00€</p>
+            <img src="../images/NIKE+AIR+MAX+270.jpg" alt="Produkti 5">
+            <p><strong>Nike Air Max 270</strong></p>
+            <p class="price">Çmimi: 120.00€</p>
             <button id="openModal">SHTO NE SHPORTE</button>
         </div>
         <div class="product">
-            <img src="jordan-diamond-outdoor-8p-basketball-dgmqgr.png" alt="Produkti 6">
-            <p><strong> Top Basketbolli Jordan Diamond Outdoor 8 </strong> </p>
-            <p class="price">Çmimi: 55.00€</p>
+            <img src="../images/AIR+MAX+DN.jpg" alt="Produkti 6">
+            <p><strong>Nike Air Max DN </strong></p>
+            <p class="price">Çmimi: 170.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+
+        </div>
+    </div>
+
+    <div class="flex-2">
+        <div class="product">
+            <img src="../images/K+NSW+TF+RPL+HGH+SYNFL.jpg" alt="Produkti 4">
+            <p><strong>Jelek per Femije Nike NSW TF RPL HGH SYNFL</strong></p>
+            <p class="price">Çmimi: 90.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+        </div>
+        <div class="product">
+            <img src="../images/PSG+Y+NK+DF+JSY+SS+STAD+HM.jpg" alt="Produkti 5">
+            <p><strong>Ndrese Futbolli Paris Saint-Germain 2024/25 Stadium Home</strong></p>
+            <p class="price">Çmimi: 75.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+        </div>
+        <div class="product">
+            <img src="../images/AIR+FORCE+1kids(GS).jpg" alt="Produkti 6">
+            <p><strong>Atlete per Femije Nike Air Force 1(White)</strong></p>
+            <p class="price">Çmimi: 90.00€</p>
             <button id="openModal">SHTO NE SHPORTE</button>
         </div>
     </div>
 
     <div class="flex-2">
         <div class="product">
-            <img src="jordan-essentials-mens-warmup-jacket-bHlr9B.png" alt="Produkti 4">
-            <p><strong>Duks Jordan Essentials Warmup </strong> </p>
+            <img src="../images/NIKE+DUNK+LOW+(PS).jpg" alt="Produkti 4">
+            <p><strong>Atlete per Femije Nike Dunk Low (PS)</strong></p>
+            <p class="price">Çmimi: 85.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+        </div>
+        <div class="product">
+            <img src="../images/JR+PHANTOM+LUNA+II+ACADEMY+AG.jpg" alt="Produkti 5">
+            <p><strong>Atlete Futbolli Nike Phantom Academy AG</strong></p>
+            <p class="price">Çmimi: 70.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+        </div>
+        <div class="product">
+            <img src="../images/NIKESB+DUNK+LOW+(GS).jpg" alt="Produkti 6">
+            <p><strong>Atlete per Femije Nike SB Dunk Low (GS)</strong></p>
+            <p class="price">Çmimi: 95.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+        </div>
+    </div>
+
+
+    <div class="flex-2">
+        <div class="product">
+            <img src="../images/NIKE+DUNK+HIGH+NN+GS.jpg" alt="Produkti 4">
+            <p><strong>Atlete per Femije Nike Dunk High NN GS</strong></p>
             <p class="price">Çmimi: 115.00€</p>
             <button id="openModal">SHTO NE SHPORTE</button>
         </div>
         <div class="product">
-            <img src="airjordan1.jpg" alt="Produkti 5">
-            <p><strong> Nike Air Jordan 1 - University Blue</strong> </p>
-            <p class="price">Çmimi: 340.00€</p>
+            <img src="../images/NIKE+DUNK+LOW+(PSE).png" alt="Produkti 5">
+            <p><strong>Atlete per Femije Nike Dunk Low (PSE)</strong></p>
+            <p class="price">Çmimi: 100.00€</p>
             <button id="openModal">SHTO NE SHPORTE</button>
         </div>
         <div class="product">
-            <img src="women-s-air-jordan-4-canyon-purple.jpg" alt="Produkti 6">
-            <p><strong> Nike Air Jordan 4 Canyon Purple </strong> </p>
-            <p class="price">Çmimi: 235.00€</p>
-            <button id="openModal">SHTO NE SHPORTE</button>
-        </div>
-    </div>
-
-    <div class="flex-2">
-        <div class="product">
-            <img src="golden-state-warriors-courtside-statement-edition-mens-jordan-nba-max90-t-shirt-HnWHMD.png" alt="Produkti 4">
-            <p><strong> Golden State Warriors Courtside </strong></p>
+            <img src="../images/NIKE+DUNKSB+LOW+GS.jpg" alt="Produkti 6">
+            <p><strong>Atlete per Femije Nike Dunk SB Low GS</strong></p>
             <p class="price">Çmimi: 110.00€</p>
             <button id="openModal">SHTO NE SHPORTE</button>
         </div>
-        <div class="product">
-            <img src="NIKESHOX+RIDE+2.png" alt="Produkti 5">
-            <p><strong> Nike Air Shox Ride 2 </strong> </p>
-            <p class="price">Çmimi: 240.00€</p>
-            <button id="openModal">SHTO NE SHPORTE</button>
-        </div>
-        <div class="product">
-            <img src="NIKEFEMRADW+NSW+ESSNTL+COZY+JKT.png" alt="Produkti 6">
-            <p><strong> Duks per Femra Nike Cozy Jacket </strong> </p>
-            <p class="price">Çmimi: 150.00€</p>
-            <button id="openModal">SHTO NE SHPORTE</button>
-        </div>
     </div>
 
 
     <div class="flex-2">
         <div class="product">
-            <img src="NikePro MOCK long sleeve.jpg" alt="Produkti 4">
-            <p><strong>Nike Pro Mock Long Sleeve</strong></p>
+            <img src="../images/NIKE+DUNKLOWGS-olderKids.jpg" alt="Produkti 4">
+            <p><strong>Atlete per Femije Nike Dunk Low Dark Obsidian</strong></p>
+            <p class="price">Çmimi: 120.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+        </div>
+        <div class="product">
+            <img src="../images/NIKESBBDUNK+HIGH+(GS).png" alt="Produkti 5">
+            <p><strong>Atlete per Femije Nike SB Dunk High (GS)</strong></p>
+            <p class="price">Çmimi: 40.00€</p>
+            <button id="openModal">SHTO NE SHPORTE</button>
+        </div>
+        <div class="product">
+            <img src="../images/Trenerka-Classic- K+NSW+CLUB+FLC+JGGR+LBR.jpg" alt="Produkti 6">
+            <p><strong>Trenerka te Poshtme per Femije Nike NSW Club FLC JGGR</strong></p>
             <p class="price">Çmimi: 45.00€</p>
             <button id="openModal">SHTO NE SHPORTE</button>
         </div>
-        <div class="product">
-            <img src="QanteNK+HOOPS+ELITE+BKPK+-+FA23.png" alt="Produkti 5">
-            <p><strong> Qante Nike Hoops Elite BKPK </strong> </p>
-            <p class="price">Çmimi: 80.00€</p>
-            <button id="openModal">SHTO NE SHPORTE</button>
-        </div>
-        <div class="product">
-            <img src="air-jordan-4-seafoam.jpg" alt="Produkti 6">
-            <p><strong> Nike Air Jordan 4 - Seafoam </strong> </p>
-            <p class="price">Çmimi: 235.00€</p>
-            <button id="openModal">SHTO NE SHPORTE</button>
-        </div>
-    </div>
-
-
-    <div class="flex-2">
-        <div class="product">
-            <img src="TermaFitHOODIE-M+J+FLIGHT+SHERPA+JKT-Meshkuj.png" alt="Produkti 4">
-            <p><strong>Duks per Meshkuj Jordan Terma Fit Hoodie </strong> </p>
-            <p class="price">Çmimi: 185.00€</p>
-            <button id="openModal">SHTO NE SHPORTE</button>
-        </div>
-        <div class="product">
-            <img src="JORDAN+SPIZIKE+LOW.png" alt="Produkti 5">
-            <p><strong>Atlete per Meshkuj Jordan Spizike Low </strong> </p>
-            <p class="price">Çmimi: 240.00€</p>
-            <button id="openModal">SHTO NE SHPORTE</button>
-        </div>
-        <div class="product">
-            <img src="DuksNOCTA-M+NRG+NOCTA+TCH+JKT+HD.png" alt="Produkti 6">
-            <p><strong> Duks per Meshkuj Nike Nocta NRG TCH Jacket </strong></p>
-            <p class="price">Çmimi: 420.00€</p>
-            <button id="openModal">SHTO NE SHPORTE</button>
-        </div>
     </div>
 
     <div class="flex-2">
         <div class="product">
-            <img src="BROKLYNJERSEY+MNK+DF+SWGMN+JSY+ICN+22.png" alt="Produkti 4">
-            <p><strong>Ndrese Basketbolli per Meshkuj Brooklyn Nets Icon Edition</strong> </p>
-            <p class="price">Çmimi: 130.00€</p>
+            <img src="../images/Trenerka+NSW+TRACKSUIT+POLY+FZ+HBR.jpg" alt="Produkti 4">
+            <p><strong>Trenerka Komplet per Femije Nike NSW Tracksuit Poly FZ HBR </strong></p>
+            <p class="price">Çmimi: 75.00€</p>
             <button id="openModal">SHTO NE SHPORTE</button>
         </div>
         <div class="product">
-            <img src="ATLETEJUMPMAN+JACK+TR.png" alt="Produkti 5">
-            <p><strong> Atlete per Meshkuj - Jumpman Jack Trainer </strong> </p>
-            <p class="price">Çmimi: 450.00€</p>
+            <img src="../images/DuksFemije-K+NSW+CLUB+FLC+HDY+LBR.png" alt="Produkti 5">
+            <p><strong>Duks per Femije Nike SportsWear Club FLC HDY</strong></p>
+            <p class="price">Çmimi: 40.00€</p>
             <button id="openModal">SHTO NE SHPORTE</button>
         </div>
         <div class="product">
-            <img src="NIKEPHOENIXFEMRAW+NSW+PHNX+FLC+HR+OS+PANT+2.png" alt="Produkti 6">
-            <p><strong> Pantalona per Femra Nike Phoenix FEM RAW </strong> </p>
-            <p class="price">Çmimi: 85.00€</p>
+            <img src="../images/Maic-femije-DNU+K+NK+AIR+TEE.png" alt="Produkti 6">
+            <p><strong>Maic per Femije Nike Air</strong></p>
+            <p class="price">Çmimi: 35.00€</p>
             <button id="openModal">SHTO NE SHPORTE</button>
         </div>
-    </div>
     </div>
 
     <footer>
@@ -201,10 +198,7 @@
     </footer>
 
 
-    
-    <script src="script.js"></script>
-
-
-
 </body>
 </html>
+
+

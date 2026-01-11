@@ -61,7 +61,7 @@ $cartItems = $order->getUserOrders($user_id);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping Cart</title>
-    <link rel="stylesheet" href="css_per_AddToCart.css">
+    <link rel="stylesheet" href="../CSS-Files/css_per_AddToCart.css">
     <script>
         function finishOrder() {
             alert("Your order is finished");
@@ -117,3 +117,6 @@ $cartItems = $order->getUserOrders($user_id);
     <?php endif; ?>
 </body>
 </html>
+
+
+
